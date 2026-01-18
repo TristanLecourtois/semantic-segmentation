@@ -1,4 +1,3 @@
-```markdown
 # BCSS Image Segmentation Assesment
 
 This repository provides a way to train and evaluate state-of-the-art deep learning models for multi-class semantic segmentation on the Breast Cancer Semantic Segmentation (BCSS) dataset.
@@ -7,7 +6,7 @@ This repository provides a way to train and evaluate state-of-the-art deep learn
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/TristanLecourtois/semantic-segmentation.git
    cd semantic-segmentation
    ```
 
@@ -88,4 +87,5 @@ After training, the following files will be generated in your `--save_dir`:
 - Best Model: `<model_name>_best.pth` (lowest validation loss)  
 - Learning Curves: PNG files for Cross-Entropy, Dice Loss, and mDice scores  
 - Visual Check: A plot showing original images, ground truth masks, and model predictions will be automatically generated.
-```
+
+
