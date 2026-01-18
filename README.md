@@ -1,4 +1,4 @@
-# BCSS Image Segmentation Assesment
+# Image Segmentation 
 
 This repository provides a way to train and evaluate state-of-the-art deep learning models for multi-class semantic segmentation on the Breast Cancer Semantic Segmentation (BCSS) dataset.
 
