@@ -72,10 +72,10 @@ python main.py --n_epochs 40 --batch_size 8 --learning_rate 5e-4 \
 |----------|------|---------|-------------|
 | `--model` | str | ResNet34UNet | Selection: UNet, ResNet34UNet, TransUNet, DenseUNet |
 | `--n_epochs` | int | 15 | Total number of training epochs |
-| `--batch_size` | int | 16 | Number of samples per batch |
-| `--learning_rate` | float | 1e-4 | Initial LR for AdamW optimizer |
+| `--batch_size` | int | 128 | Number of samples per batch |
+| `--learning_rate` | float | 5e-3 | Initial LR for AdamW optimizer |
 | `--lr_decay_factor` | float | 0.85 | Decay rate for ReduceLROnPlateau |
-| `--output_channels` | int | 5 | Number of segmentation classes (BCSS default) |
+| `--output_channels` | int | 3 | Number of segmentation classes (BCSS default) |
 | `--save_dir` | str | ./checkpoints/ | Folder to store weights and logs |
 | `--data_path` | str | ./data/BCSS | Path to the dataset root |
 | `--device` | str | cuda | Hardware to use (cuda or cpu) |
